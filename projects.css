@@ -1,0 +1,84 @@
+
+body {
+    background-image: url('assets/cosmic.jpg');
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a { 
+    color: white;
+    text-decoration: none;
+}
+
+.p-box {
+    display: flex;
+    flex-direction: column;
+    border: 10px solid #2D45A5;
+    background-color: #0A192F; 
+    margin: 30px 150px 15px 150px;
+    color: white;
+
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    margin: 50px 150px 0px 150px;
+    margin-top: 50px;
+}
+
+.nav-item {
+    display: inline-block;
+    padding: 0px 20px 0px 20px;
+    margin-bottom: 10px;
+    font-size: 16pt;
+}
+
+.nav-item-list {
+    border-bottom: 2px solid white;   
+    margin: auto;
+    width: 100%;
+}
+
+.column {
+    padding: 20px 50px 50px 50px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.team-row {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.team-heading {
+    margin: auto;
+}
+
+#heading {
+    margin: auto;
+    color: white;
+    text-align: center;
+}
+
+#logo {
+    width: 100px;
+    height: auto;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+.project-pic {
+    margin-top: 30px;
+    max-width: 400px;
+    height: auto;
+}
+
+
+
+
