@@ -3,19 +3,51 @@
   
     margin: 0;
     padding: 0;
+    
   }
+body {
+    background-color: #2B466D;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-weight: 300;
+}
 
 h1 {
    padding-top: 25px;
    padding-bottom: 50px;
    text-align: center;
+   font-family: 'Fira Code', monospace;
+   color:white;
   
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #4CC9F0;
+}
+
+#neon-container {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    
+    top: 200px;
+  
+}
+
+.neon {
+    height: 680px;
+    margin: -100px;
 }
 
 .projects-container {
     height: 100%;
     width: 100%;
-    background-color: #2B466D;
+   
 }
 
 .project-container img {
@@ -47,3 +79,12 @@ h1 {
 
    
 }
+
+@media(min-width:1130px){
+
+    #neon-container{
+        flex-wrap: nowrap;
+    }
+
+}
+
